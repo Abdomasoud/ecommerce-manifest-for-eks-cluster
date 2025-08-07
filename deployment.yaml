@@ -17,6 +17,7 @@ spec:
       serviceAccountName: api-sa
       containers:
       - name: ecommerce-app
+      # trigger
         image: 159781650309.dkr.ecr.us-east-1.amazonaws.com/ecommerce-application:latest
         ports:
         - containerPort: 3000
